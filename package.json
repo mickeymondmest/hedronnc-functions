@@ -1,0 +1,30 @@
+{
+  "name": "hedronnc-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mickeymondmest/hedronnc-functions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mickeymondmest/hedronnc-functions/issues"
+  },
+  "homepage": "https://github.com/mickeymondmest/hedronnc-functions#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}

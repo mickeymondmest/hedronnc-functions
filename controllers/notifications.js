@@ -22,7 +22,7 @@ exports.email = (req, res) => {
     to: to,
     from: from,
     subject: subject,
-    html: `<strong>${message}</strong>`
+    text: message
   };
   // Try To Send Email
   sgMail.send(msg).then(result => {
